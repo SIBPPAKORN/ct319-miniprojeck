@@ -17,7 +17,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
         <a class="navbar-brand" href="#">
-    <img src="image/77.png" alt="Your Image Alt Text" width="40" height="40" class="d-inline-block align-text-top">
+    <img src="image/77.png" alt="Your Image Alt Text" width="50" height="40" class="d-inline-block align-text-top">
     <span class="text-warning">เครื่อง</span>ดนตรีไทย
 </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

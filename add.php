@@ -10,11 +10,23 @@ include 'condb.php';
     <title>เพิ่มข้อมูล</title>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style1.css">
+    
+   
+
+   
 
 </head>
 <body>
     <?php include 'navber.php'; ?>
     <div class="container mt-5">
+    <style>
+    body {
+        background-image: url('image/m3.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+</style>
+
         <div class="row">
             <div class="col-md-6 offset-md-3">
                 <form name="form1" method="post" action="insert.php" enctype="multipart/form-data">

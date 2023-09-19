@@ -191,3 +191,8 @@ body {
     /* Add more styles as needed */
 }
 
+body {
+    background-image: url('image/bb.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

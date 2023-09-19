@@ -3,6 +3,8 @@
 <html lang="en">
 <!--divinectorweb.com-->
 <head>
+    
+   
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,11 +18,15 @@
 
     
 </head>
+
 <body>
+
+
 <?php include 'navber.php';?>
     <!-- about section starts -->
     <section id="about" class="about section-padding">
         <div class="container">
+            
             <div class="row">
 <?php
 $ids=$_GET['id'];
@@ -30,14 +36,19 @@ $row=mysqli_fetch_array($result)
 
 
 ?>
-
+  
                 <div style="margin-top: 80px;" class="col-lg-4 col-md-12 col-12">
+     
+
                     <div class="about-img">
+                        
                         <img src="image/<?=$row['image']?>" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                    
                     <div style="margin-top: 80px;" class="about-text">
+                    
                         <h1>ชื่อเครื่องดนตรี: <?=$row['pro_name']?></h1>
                         <h2>ประเภทของเครื่องดนตรี: <?=$row['type_name']?></h2>
                         <h4>รายละเอียด: </h4><p><?=$row['detail']?></p>

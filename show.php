@@ -15,6 +15,7 @@
 </head>
 <body>
     <?php include 'navber.php';?>
+    
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -87,8 +88,15 @@ while($row=mysqli_fetch_array($result)){
 
 
 ?>
-
-    <div style="margin-top: 5px;" class="col-12 col-md-12 col-lg-4">
+  <style>
+    body {
+        background-image: url('image/bk.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+</style>
+    <div style="margin-top: 8px;" class="col-12 col-md-12 col-lg-4">
+    
         <div class="card text-light text-center bg-white pb-2">
             <div class="card-body text-dark">
                 <div class=".carousel-inner img ">
