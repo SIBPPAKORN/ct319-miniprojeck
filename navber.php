@@ -13,6 +13,11 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style1.css">
 </head>
+<style>
+    .form-control{
+        width: 220px;
+    }
+</style>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
@@ -27,14 +32,14 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
-    <a class="nav-link nav-link-custom" href="add.php">เพิ่มข้อมูล</a>
+    <a class="nav-link nav-link-custom me-2" href="add.php">เพิ่มข้อมูล</a>
                 </li>
 
             <li class="nav-item">
-                <a class="nav-link nav-link-custom"href="show.php">หน้าหลัก</a>
+                <a class="nav-link nav-link-custom me-2"href="show.php">หน้าหลัก</a>
             </li> 
             <li class="nav-item">
-                <a class="nav-link" href="#services"></a>
+                <a class="nav-link nav-link-custom" href="em.php">ผู้จัดทำ</a>
             </li> 
             <li class="nav-item">
                 <a class="nav-link" href="#portfolio"></a>
@@ -46,7 +51,7 @@
                 <a class="nav-link" href="#contact"></a>
             </li>
             <form method="POST" action="show.php#show">
-            <input type="search"name="keyword" class="form-control form-control-dark" placeholder="ค้นหา..." aria-label="Search"><button type="submit" class="btn btn-warning">ค้นหา</button>
+            <input type="search"name="keyword" class="form-control form-control-dark me-2" placeholder="ค้นหา..." aria-label="Search"><button type="submit" class="btn btn-warning">ค้นหา</button>
             </ul>   
         </div>
         </form>

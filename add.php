@@ -18,7 +18,7 @@ include 'condb.php';
 </head>
 <body>
     <?php include 'navber.php'; ?>
-    <div class="container mt-5">
+    <div class="container" style="margin-top: 8rem;" >
     <style>
     body {
         background-image: url('image/m3.jpg');

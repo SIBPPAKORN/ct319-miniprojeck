@@ -6033,6 +6033,7 @@ textarea.form-control-lg {
   position: relative;
   width: 100%;
   overflow: hidden;
+  height: 200px;
 }
 .carousel-inner::after {
   display: block;
